@@ -1,0 +1,36 @@
+:root {
+  /* ===== 背景 ===== */
+  --bg-deep: #03080f;
+  --bg-base: #061223;
+  --bg-panel: rgba(9, 26, 48, 0.72);
+  --bg-panel-solid: #08192e;
+  --bg-sub: rgba(16, 42, 74, 0.55);
+
+  /* ===== 描边 ===== */
+  --line-soft: rgba(46, 108, 170, 0.28);
+  --line: rgba(51, 214, 255, 0.28);
+  --line-strong: rgba(51, 214, 255, 0.62);
+
+  /* ===== 文字 ===== */
+  --text-main: #e6f3ff;
+  --text-sub: #8fb4d9;
+  --text-dim: #517593;
+
+  /* ===== 主色 ===== */
+  --c-cyan: #33d6ff;
+  --c-blue: #2b7fff;
+  --c-teal: #00e5b8;
+  --c-green: #22d18c;
+  --c-amber: #ffb020;
+  --c-orange: #ff7a2f;
+  --c-red: #ff4d5e;
+  --c-purple: #a86bff;
+
+  /* ===== 字体 ===== */
+  --font-num: 'Bahnschrift', 'DIN Alternate', 'HarmonyOS Sans SC', 'Arial Narrow', sans-serif;
+  --font-base: 'PingFang SC', 'HarmonyOS Sans SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif;
+
+  /* ===== 尺寸 ===== */
+  --radius: 4px;
+  --gap: 16px;
+}
