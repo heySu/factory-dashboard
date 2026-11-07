@@ -2,6 +2,14 @@
 
 通用综合型工厂大屏，**前端 Vue 3 + Vite + ECharts，后端 Node.js + Express + WebSocket + SQLite**，真实联调、可持久化、可多屏同步。1920×1080 等比缩放，开箱即演示。
 
+## 界面预览（1920×1080 实机截图）
+
+| 01 生产运营总览 | 04 质量与工艺分析 |
+| --- | --- |
+| ![生产运营总览](docs/screenshots/overview.png) | ![质量与工艺分析](docs/screenshots/quality.png) |
+
+> 共 6 屏（总览 / 计划达成 / 设备监控 / 质量工艺 / 能耗 / 告警），支持自动轮播。
+
 ```
 现场设备(模拟) → 采集器(1s) → 内存实时态 ─┬─→ WebSocket 每 2s 推送大屏
                                           └─→ 每 10s 抽样落库（SQLite）
